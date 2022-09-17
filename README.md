@@ -19,14 +19,18 @@ $ git clone <https://github.com/ThiagoCardosoSoares/Desafio-Samel-Backend.git>
 $ cd Desafio-Samel-Backend
 ```
 
-### 🎲 configurando avriaveis de ambiente
-```bash
-# Clone este repositório
-$ 
+### 🎲 configurando variaveis de ambiente
 
-# Acesse a pasta do projeto no terminal/cmd
-$ cd Desafio-Samel-Backend
+Crie um arquivo na raiz do projeto com o nome
+```bash
+.env
 ```
+copie e cole as informações 
+```bash
+.exemple.env
+```
+
+coloque a URL do banco e a porta que deseja startar o projeto
 
 ```bash
 # Instale as dependências
@@ -37,27 +41,6 @@ $ npm install
 # Execute a aplicação em modo de desenvolvimento
 $ yarn dev
 
-# O servidor inciará na porta:3333 - acesse <http://localhost:3333>
+# O servidor inciará na porta:<port> - acesse <http://localhost:<port>>
 ### Inicialização
 ```
-
-
-
-
-- Primeirro
-
-- [Funcionalidades](#funcionalidades)
-
-- [Aplicação](#aplicação)
-
-- [Ferramentas utilizadas](#ferramentas-utilizadas)
-
-- [Acesso ao projeto](#acesso-ao-projeto)
-
-- [Abrir e rodar o projeto](#abrir-e-rodar-o-projeto)
-
-- [Desenvolvedores](#desenvolvedores)
-
-
-
-
