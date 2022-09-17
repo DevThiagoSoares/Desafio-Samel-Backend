@@ -1,0 +1,22 @@
+{
+  "name": "Desafio-Samel",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --exec node src/server.js"
+  },
+  "devDependencies": {
+    "eslint": "^8.23.1",
+    "nodemon": "^2.0.19",
+    "prettier": "^2.7.1",
+    "sucrase": "^3.26.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "oracledb": "^5.5.0",
+    "pg": "^8.8.0"
+  }
+}
